@@ -9,7 +9,7 @@ class BreathingActivity : Activity
     {
     }
 
-    public override void StartActivity()
+    public void StartActivity()
     {
         DisplayStartMessage();
 

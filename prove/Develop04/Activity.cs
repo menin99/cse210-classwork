@@ -51,7 +51,4 @@ class Activity
         }
     }
 
-    public virtual void StartActivity()
-    {
-    }
 }

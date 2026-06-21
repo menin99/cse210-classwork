@@ -21,7 +21,7 @@ class ListingActivity : Activity
         _itemCount = 0;
     }
 
-    public override void StartActivity()
+    public void StartActivity()
     {
         DisplayStartMessage();
         WritePrompt();

@@ -32,7 +32,7 @@ class ReflectingActivity : Activity
         };
     }
 
-    public override void StartActivity()
+    public void StartActivity()
     {
         DisplayStartMessage();
         PromptAndWait();
